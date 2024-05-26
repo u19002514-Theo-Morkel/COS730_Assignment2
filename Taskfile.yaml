@@ -1,0 +1,12 @@
+version: '1'
+
+tasks:
+  build:
+    cmds:
+      - echo "Building..."
+  test:
+    cmds:
+      - echo "Testing..."
+  deploy:
+    cmds:
+      - echo "Deploying..."

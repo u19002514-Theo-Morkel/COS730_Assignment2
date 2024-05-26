@@ -1,0 +1,10 @@
+services:
+  recommendation:
+    image: recommendation:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7999:7999"
+    environment:
+      - OPENAI_API_KEY=
